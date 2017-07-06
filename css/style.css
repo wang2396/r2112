@@ -1,0 +1,214 @@
+@charset "utf-8";
+
+.hide{display: none;}
+
+/*公共部分样式*/
+#wrap{
+	width: 100%;
+	height: 100%;
+	max-width:640px;
+	min-width: 320px;
+	margin:0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.main{
+	height: 100%;
+	position: relative;
+}
+.page{	
+	width: 100%;
+	height:100%;
+	margin:0 auto;
+	/*border:1px solid red;*/
+	position:absolute;left:0;top:0;z-index:99;
+	transition:all 1s ease;
+}
+
+/*.page_1{background-color: red;}*/
+/*.page_2{background-color: blue;}*/
+/*.page_3{background-color:orange;}*/
+/*.page_4{background-color: #088b00;}*/
+/*.page_5{background-color: yellow;}*/
+
+/*无限循环*/
+.infinite{animation-iteration-count:infinite;}
+/*延迟时间*/
+.delay-time{animation-delay:1s;}
+.delay-time2{animation-delay:2s;}
+.delay-time3{animation-delay:3s;}
+.delay-time4{animation-delay:4s;}
+.delay-time5{animation-delay:5s;}
+/*page页在屏幕下面*/
+.pageDown{transform:translateY(100%);} 
+/*page页在屏幕上面*/
+.pageUp{transform:translateY(-100%);} 
+
+
+
+/*第一页的样式*/
+.page_1{
+	background: url(../images/grjl.png);
+	background-size: cover;
+	overflow: hidden;
+}
+.xm{
+	display: inline-block;
+	font-size: 50px;
+	float: left;
+	margin-top: 25rem;
+	margin-left: 11rem;
+}
+.bj{
+	display: inline-block;
+	font-size: 40px;
+	float: left;
+	margin-top: 2rem;
+	margin-left: 13rem;
+}
+
+/*第二页的样式*/
+.page_2{
+	background: url(../images/zwjs.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+.xmjs{
+	font-size: 30px;
+	float: left;
+	margin-top: 11rem;
+	margin-left: 17rem;
+}
+.zy{
+	font-size: 25px;
+	float: left;
+	margin-top: 3rem;
+	margin-left: 17rem;
+}
+.grlx{
+	font-size: 25px;
+	text-align: center;
+	float: left;
+	margin-top: 3rem;
+	margin-left: 17rem;
+}
+.fk{
+	font-size: 25px;
+	text-align: center;
+	margin-top: 30rem;
+}
+/*第三页样式*/
+.page_3{
+	background: url(../images/grjs.png);
+	background-size: cover;
+	overflow: hidden;
+}
+.wdzy{
+	font-size: 30px;
+	float: left;
+	margin-left: 16rem;
+}
+.img{
+	width: 10rem;
+	height: 10rem;
+}
+.html{
+	width: 10rem;
+	height: 11rem;
+	text-align: center;
+	float: left;
+	margin-top: 7rem;
+	margin-left: -21rem;
+}
+.css{
+	width: 10rem;
+	height: 11rem;
+	text-align: center;
+	float: left;
+	margin-top: 7rem;
+	margin-left: -9rem;
+}
+.js{
+	width: 10rem;
+	height: 11rem;
+	text-align: center;
+	float: left;
+	margin-top: -11rem;
+	margin-left: 27rem;
+}
+/*第四页的样式*/
+.page_4{
+	background: url(../images/bj.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+.zpzs{
+	font-size: 35px;
+	float: left;
+	margin-top: 14rem;
+	margin-left: 16rem;
+}
+.delicious{
+	font-size: 33px;
+	color: red;
+	float: left;
+	margin-top: 19rem;
+	margin-left: -12rem;
+}
+.boke{
+	font-size: 33px;
+	color: red;
+	float: left;
+	margin-top: 19rem;
+	margin-left: 0rem;
+}
+.lanjing{
+	font-size: 33px;
+	color: red;
+	float: left;
+	margin-top: 26rem;
+	margin-left: -16rem;
+}
+.jieshao{
+	font-size: 33px;
+	color: red;
+	float: left;
+	margin-top: 26rem;
+	margin-left: -4rem;
+}
+/*第五页的样式*/
+.page_5{
+	background-color: orange;
+}
+.lxfs{
+	font-size: 35px;
+	float: left;
+	margin-top: 4rem;
+	margin-left: 16rem;
+}
+.sj{
+	font-size: 28px;
+	float: left;
+	margin-top: 3rem;
+	margin-left: 11rem;
+}
+.yx{
+	font-size: 28px;
+	float: left;
+	margin-top: 2rem;
+	margin-left: 7rem;
+}
+.qq{
+	width: 15rem;
+	height: 15rem;
+	float: left;
+	margin-top: 2rem;
+	margin-left: 2rem;
+}
+.wx{
+	width: 15rem;
+	height: 15rem;
+	float: left;
+	margin-top: 2rem;
+	margin-left: 2rem;
+}
